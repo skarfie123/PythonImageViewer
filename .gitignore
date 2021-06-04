@@ -1,4 +1,5 @@
 *.jpg
 *.png
-build\
-dist\
+build/
+dist/
+__pycache__/
