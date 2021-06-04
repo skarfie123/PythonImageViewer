@@ -9,7 +9,13 @@
 
 ## Usage
 
+### View some images:
+
 `python PythonImageViewer.py *.jpg *.png`
+
+### Change display mode (height, stretch, width):
+
+`python PythonImageViewer.py *.jpg -m stretch`
 
 ## Build
 
