@@ -1,4 +1,4 @@
-# pdfTools
+# PythonImageViwer
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/skarfie123/PythonImageViewer)
 ![GitHub all releases](https://img.shields.io/github/downloads/skarfie123/PythonImageViewer/total)
@@ -9,11 +9,11 @@
 
 ## Usage
 
-### View some images:
+### View some images
 
 `python PythonImageViewer.py *.jpg *.png`
 
-### Change display mode (height, stretch, width):
+### Change display mode (height, stretch, width)
 
 `python PythonImageViewer.py *.jpg -m stretch`
 
