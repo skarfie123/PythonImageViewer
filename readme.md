@@ -7,23 +7,16 @@
 
 [![Example Image](https://i.imgur.com/ZgY1SOS.png)](https://rahulpaicreations.github.io/blender/rpc-anim)
 
+## Installation
+
+`pipx install "git+https://github.com/skarfie123/PythonImageViewer.git"`
+
 ## Usage
 
 ### View some images
 
-`python PythonImageViewer.py *.jpg *.png`
+`python-image-viewer *.jpg *.png`
 
 ### Change display mode (height, stretch, width)
 
-`python PythonImageViewer.py *.jpg -m stretch`
-
-## Build
-
-`pyinstaller PythonImageViewer.spec`
-
-## Installation
-
-1. Place the file `PythonImageViewer.exe` in a folder such as `C:\...\cmd`
-1. Add that folder to the `PATH` environment variable (so you can run the tool from anywhere)
-
-NB. you can use this folder for other tools and scripts, such as [these](https://github.com/skarfie123/cmd).
+`python-image-viewer *.jpg -m stretch`

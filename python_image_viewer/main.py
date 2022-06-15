@@ -1,7 +1,8 @@
-import shutil
 import argparse
-import cv2
 import glob
+import shutil
+
+import cv2
 
 MODE_HEIGHT = "height"
 MODE_STRETCH = "stretch"
@@ -52,7 +53,7 @@ def show(path: str, mode: str):
         print("")
 
 
-if __name__ == "__main__":
+def cli():
     parser = argparse.ArgumentParser("Python Image Viewer")
     parser.add_argument("path", help="Path to image(s) to display", nargs="+")
     parser.add_argument(
@@ -63,3 +64,7 @@ if __name__ == "__main__":
         default="height",
     )
     main(parser.parse_args())
+
+
+if __name__ == "__main__":
+    cli()
